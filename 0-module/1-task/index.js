@@ -1,5 +1,5 @@
 function sum(m, n) {
-  s = m + n;
+  let s = m + n;
   console.log(m + " + " + n + " = " + s);
   return s;
 }
