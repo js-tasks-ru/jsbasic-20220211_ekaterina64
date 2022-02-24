@@ -1,3 +1,8 @@
+/**
+ * Function returns names of users.
+ * @param {*} users 
+ * @returns array of names
+ */
 function namify(users) {
-  // ваш код...
+  return users.map(user => user.name);
 }
