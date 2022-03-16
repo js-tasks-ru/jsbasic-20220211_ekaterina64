@@ -100,7 +100,7 @@ describe('5-module-3-task', () => {
   describe('переключение вперёд', () => {
     it('при клике по кнопке "вперёд", должна переключать на один слайд вперёд', () => {
       carouselArrowRight.dispatchEvent(clickEvent);
-console.log("IN TEST   " + carouselInner.style.transform);
+
       expect(carouselInner.style.transform).toBe("translateX(-500px)");
     });
   });
